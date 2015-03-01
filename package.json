@@ -1,0 +1,39 @@
+{
+  "name": "fabulous",
+  "version": "1.0.0",
+  "description": "A tiny, bare bones and kind of dumb highlighter.",
+  "main": "index.js",
+  "bin": {
+    "fabulous": "bin/fabulous"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gummesson/fabulous.git"
+  },
+  "keywords": [
+    "highlighter",
+    "highlight",
+    "browser"
+  ],
+  "author": "Ellen Gummesson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gummesson/fabulous/issues"
+  },
+  "homepage": "https://github.com/gummesson/fabulous",
+  "dependencies": {
+    "looping": "^1.1.2",
+    "meow": "^3.1.0",
+    "read-file-stdin": "^0.2.0",
+    "write-file-stdout": "^0.0.2"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "tape": "^3.5.0",
+    "tape-run": "^0.3.0"
+  },
+  "scripts": {
+    "test": "node test/",
+    "browser": "browserify test/ | tape-run"
+  }
+}

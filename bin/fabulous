@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+var meow     = require('meow')
+var read     = require('read-file-stdin')
+var write    = require('write-file-stdout')
+var fabulous = require('../')
+
+var cli = meow({
+  pkg: '../package.json',
+  help: [
+    'Usage:',
+    '  fabulous <input> <output>'
+  ].join('\n')
+})
+
+read(cli.input[0], function(err, buffer) {
+  if (err) throw err
+  var code = fabulous(buffer.toString())
+  write(cli.input[1], code)
+})

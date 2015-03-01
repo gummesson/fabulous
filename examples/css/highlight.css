@@ -1,0 +1,28 @@
+pre {
+  background-color: #212121;
+  color: #d9d9d9;
+}
+
+.keyword {
+  color: #20bbfc;
+}
+
+.primitive {
+  color: #6855de;
+}
+
+.global {
+  color: #f3e430;
+}
+
+.number {
+  color: #c30771;
+}
+
+.string {
+  color: #5fd7af;
+}
+
+.comment {
+  color: #767676;
+}
