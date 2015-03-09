@@ -74,16 +74,6 @@ var code = fabulous(str)
 // => "<span class="keyword">var</span> str = <span class="string">'<span class="keyword">function</span>() {}'</span>"
 ~~~
 
-## Tests
-
-[PhantomJS](http://phantomjs.org/) is required.
-
-~~~ text
-npm install
-npm test
-npm run browser
-~~~
-
 [npm-img]: https://img.shields.io/npm/v/fabulous.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/fabulous
 [license-img]: http://img.shields.io/npm/l/fabulous.svg?style=flat-square
