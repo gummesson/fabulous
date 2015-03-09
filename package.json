@@ -29,11 +29,12 @@
   },
   "devDependencies": {
     "browserify": "^9.0.3",
-    "tape": "^3.5.0",
-    "tape-run": "^0.3.0"
+    "smokestack": "^3.2.0",
+    "tap-closer": "^1.0.0",
+    "tape": "^3.5.0"
   },
   "scripts": {
     "test": "node test/",
-    "browser": "browserify test/ | tape-run"
+    "browser": "browserify test/ | tap-closer | smokestack"
   }
 }
