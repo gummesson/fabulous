@@ -1,6 +1,6 @@
 {
   "name": "fabulous",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny, bare bones and kind of dumb highlighter.",
   "main": "index.js",
   "bin": {
