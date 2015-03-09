@@ -35,6 +35,6 @@
   },
   "scripts": {
     "test": "node test/",
-    "browser": "browserify test/ | tap-closer | smokestack"
+    "test:browser": "browserify test/ | tap-closer | smokestack"
   }
 }
